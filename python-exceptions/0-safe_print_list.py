@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-def safe_print_list(my_list=[1, 2, 3, 4, 5], x=2):
+
+def safe_print_list(my_list=[1, 2, 3, 4], x=0):
     count = 0
 
     for i in range(x):
@@ -11,5 +12,3 @@ def safe_print_list(my_list=[1, 2, 3, 4, 5], x=2):
 
     print()
     return count
-
-safe_print_list()
