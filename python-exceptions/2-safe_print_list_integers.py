@@ -1,13 +1,15 @@
 #!/usr/bin/python3
 
 
-def safe_print_list_integers(my_list=[1, 2, 3, 4, 5], x=0):
+def safe_print_list_integers(my_list=[1, 2, 3, 4], x=0):
     count = 0
+
     for i in range(x):
         try:
             print("{:d}".format(my_list[i]), end="")
             count += 1
         except:
             pass
-    
+
+    print()
     return count
