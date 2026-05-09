@@ -8,8 +8,8 @@ def safe_print_list_integers(my_list=[1, 2, 3, 4], x=0):
         try:
             print("{:d}".format(my_list[i]), end="")
             count += 1
-        except (TypeError, ValueError):
-            skip
+        except:
+            indenxerror
 
     print()
     return count
